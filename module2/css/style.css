@@ -28,6 +28,7 @@
 #sushi{
     background-color:lightpink;
 }
+
 .row {
     padding: 15px;
 }
@@ -44,28 +45,22 @@
 }
 
 @media(min-width: 992px) {
-
-    .col-box-lg-4{
+    .col-lg-4{
         width: 33%;
     }
-
 }
 
 @media(min-width: 768px) and (max-width: 991px) {
-
-    .col-box-md-6{
+    .col-md-6{
         width:50%;
     }
-    .col-box-md-6-long{
+    .col-md-6-long{
         width: 100%;
     }
-    
-
 }
 
 @media(max-width: 767px) {
-
-    .col-box-lo-12{
+    .col-lo-12{
         width: 100%;
     }
 }
