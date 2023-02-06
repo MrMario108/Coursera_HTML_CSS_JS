@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.section-title{
+    border: 1px solid black;
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.25em;
+
+}
+.title{
+    font-size: 1.75em;
+    text-align: center;
+}
+#chicken{
+    background-color:cadetblue;
+}
+#beef{
+    background-color:aquamarine;
+}
+#sushi{
+    background-color:lightpink;
+}
+.row {
+    padding: 15px;
+}
+.col-div{
+    padding: 15px;
+    float: left;
+    position: relative;
+}
+
+.col-div-text{
+    background-color: gray;
+    padding-top: 50px;
+    border: 1px solid black
+}
+
+@media(min-width: 992px) {
+
+    .col-box-lg-4{
+        width: 33%;
+    }
+
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+
+    .col-box-md-6{
+        width:50%;
+    }
+    .col-box-md-6-long{
+        width: 100%;
+    }
+    
+
+}
+
+@media(max-width: 767px) {
+
+    .col-box-lo-12{
+        width: 100%;
+    }
+}
