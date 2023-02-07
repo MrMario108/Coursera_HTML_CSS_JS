@@ -1,0 +1,33 @@
+
+#company-name-title{
+    font-weight: bold;
+}
+.nav-item{
+    text-align: center;
+    font-weight: bold;
+
+}
+.nav-item :active{
+    color: red;
+    background-color: black;
+}
+.nav-item :hover{
+    background-color: gray;
+}
+
+.menu-content{
+    background-color: #f8f9fa;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.food-name{
+    text-align: center;
+    padding: 5px;
+}
+
+.table{
+    border: 1px solid;
+    background-color: aqua;
+}
